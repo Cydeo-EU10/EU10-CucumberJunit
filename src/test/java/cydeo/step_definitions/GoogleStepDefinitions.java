@@ -1,7 +1,7 @@
-package com.cydeo.step_definitions;
+package cydeo.step_definitions;
 
-import com.cydeo.pages.GoogleSearchPage;
 import com.cydeo.utilities.Driver;
+import cydeo.pages.*;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;

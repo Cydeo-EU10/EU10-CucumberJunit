@@ -1,4 +1,4 @@
-package com.cydeo.runners;
+package cydeo.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
