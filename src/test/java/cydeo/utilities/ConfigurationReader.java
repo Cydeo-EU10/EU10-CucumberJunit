@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package cydeo.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

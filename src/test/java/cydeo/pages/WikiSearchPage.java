@@ -7,7 +7,7 @@ import org.openqa.selenium.support.*;
 public class WikiSearchPage {
 
     public WikiSearchPage(){
-        PageFactory.initElements(com.cydeo.utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(id = "searchInput")

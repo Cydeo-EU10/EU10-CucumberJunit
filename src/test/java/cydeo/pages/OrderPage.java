@@ -9,7 +9,7 @@ import java.util.*;
 public class OrderPage extends BasePage {
 
     public OrderPage(){
-        PageFactory.initElements(com.cydeo.utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(name = "product")

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.*;
 public class WebTableLoginPage {
 
     public WebTableLoginPage(){
-        PageFactory.initElements(com.cydeo.utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(name = "username")
@@ -48,8 +48,8 @@ public class WebTableLoginPage {
      * configuration.properties
      */
     public void loginWithConfig(){
-        inputUsername.sendKeys(com.cydeo.utilities.ConfigurationReader.getProperty("web.table.username"));
-        inputPassword.sendKeys(com.cydeo.utilities.ConfigurationReader.getProperty("web.table.pw"));
+        inputUsername.sendKeys(ConfigurationReader.getProperty("web.table.username"));
+        inputPassword.sendKeys(ConfigurationReader.getProperty("web.table.pw"));
         loginButton.click();
     }
 }

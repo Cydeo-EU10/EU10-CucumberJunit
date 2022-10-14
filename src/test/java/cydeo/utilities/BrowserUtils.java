@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package cydeo.utilities;
 
 import org.junit.Assert;
 import org.openqa.selenium.*;
@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+
+import cydeo.utilities.*;
 
 public class BrowserUtils {
 
@@ -227,6 +229,7 @@ for given duration
     public static WebElement waitForClickablility(By locator, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
+
     }
 
     /**

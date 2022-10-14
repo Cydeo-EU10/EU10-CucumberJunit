@@ -1,11 +1,12 @@
 package cydeo.step_definitions;
 
-import com.cydeo.utilities.Driver;
+import cydeo.utilities.*;
 import cydeo.pages.*;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.support.ui.*;
 
 import java.security.Key;
 
@@ -23,6 +24,8 @@ public class GoogleStepDefinitions {
     @When("user types {string} and clicks enter")
     public void user_types_and_clicks_enter(String searchKeyword) {
 
+//        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
+//        wait.until(ExpectedConditions.visibilityOf(googleSearchPage.searchBox));
         googleSearchPage.searchBox.sendKeys(searchKeyword + Keys.ENTER);
 
     }

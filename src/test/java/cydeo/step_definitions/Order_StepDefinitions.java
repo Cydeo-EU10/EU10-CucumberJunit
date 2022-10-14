@@ -17,7 +17,7 @@ public class Order_StepDefinitions {
     @Given("user is already logged in and on order page")
     public void user_is_already_logged_in_and_on_order_page() {
         //Getting the page using the URL from configuration.properties
-        com.cydeo.utilities.Driver.getDriver().get(com.cydeo.utilities.ConfigurationReader.getProperty("web.table.url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("web.table.url"));
 
         //Calling our login method to log in to web table app
         webTableLoginPage.login();
@@ -78,7 +78,7 @@ public class Order_StepDefinitions {
     public void user_selects_credit_card_type(String expectedCardType) {
 
         //This line will loop through the list and decide which radio button to click
-        com.cydeo.utilities.BrowserUtils.clickRadioButton(orderPage.cardType, expectedCardType);
+        BrowserUtils.clickRadioButton(orderPage.cardType, expectedCardType);
 
     }
     @When("user enters credit card number {string}")

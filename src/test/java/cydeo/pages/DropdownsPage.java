@@ -7,7 +7,7 @@ import org.openqa.selenium.support.*;
 public class DropdownsPage {
 
     public DropdownsPage(){
-        PageFactory.initElements(com.cydeo.utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     @FindBy(id = "month")

@@ -13,8 +13,8 @@ public class WebTable_StepDefinitions {
 
     @Given("user is on the login page of web table app")
     public void user_is_on_the_login_page_of_web_table_app() {
-        String url = com.cydeo.utilities.ConfigurationReader.getProperty("web.table.url");
-        com.cydeo.utilities.Driver.getDriver().get(url);
+        String url = ConfigurationReader.getProperty("web.table.url");
+        Driver.getDriver().get(url);
     }
     @When("user enters username {string}")
     public void user_enters_username(String string) {
@@ -30,7 +30,7 @@ public class WebTable_StepDefinitions {
     }
     @Then("user should see url contains orders")
     public void user_should_see_url_contains_orders() {
-        com.cydeo.utilities.BrowserUtils.verifyURLContains("orders");
+        BrowserUtils.verifyURLContains("orders");
     }
 
     @When("user enters username {string} password {string} and logins")

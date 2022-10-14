@@ -7,7 +7,7 @@ import org.openqa.selenium.support.*;
 public class ViewAllOrdersPage extends BasePage{
 
     public ViewAllOrdersPage(){
-        PageFactory.initElements(com.cydeo.utilities.Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     //we need to locate the first cell of the first row

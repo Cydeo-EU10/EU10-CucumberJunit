@@ -12,7 +12,7 @@ public class Wiki_StepDefinitions {
 
     @Given("User is on Wikipedia home page")
     public void user_is_on_wikipedia_home_page() {
-        com.cydeo.utilities.Driver.getDriver().get("https://www.wikipedia.org");
+        Driver.getDriver().get("https://www.wikipedia.org");
     }
 
     @When("User types {string} in the wiki search box")
@@ -31,7 +31,7 @@ public class Wiki_StepDefinitions {
     @Then("User sees {string} is in the wiki title")
     public void user_sees_is_in_the_wiki_title(String string) {
         //verify actual title contains string (coming from feature file)
-        Assert.assertTrue(com.cydeo.utilities.Driver.getDriver().getTitle().contains(string));
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
 
     }
 

@@ -4,24 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="some issues are fixed">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" afterDir="false" />
+    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="day 15,16,17,18 are added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Login_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/ViewAllOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/ViewAllOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +45,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9-CucumberJunit/src/test/java/cydeo/pages"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU9-CucumberJunit/src/test/resources/features&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\java\cydeo\pages" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\resources\features" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\java\cydeo\pages" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\java\cydeo\step_definitions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -59,7 +64,7 @@
       <recent name="cydeo.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: googleSearch">
+  <component name="RunManager" selected="JUnit.CukesRunner">
     <configuration name="Feature: googleSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
@@ -79,14 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: List of fruits I like" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-      <option name="GLUE" value="com.cydeo.step_definitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" />
+      <option name="GLUE" value="cydeo.step_definitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="EU9-CucumberJunit" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
+      <option name="NAME_FILTER" value="^List of fruits I like$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^List of fruits I like$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: List of fruits I like" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -98,10 +104,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Search functionality result title verification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/googleSearch.feature" />
+      <option name="GLUE" value="cydeo.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU9-CucumberJunit" />
+      <option name="NAME_FILTER" value="^Search functionality result title verification$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search functionality result title verification$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search functionality result title verification" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9-CucumberJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cydeo.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cydeo.runners" />
+      <option name="MAIN_CLASS_NAME" value="cydeo.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU9-CucumberJunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cydeo.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cydeo.runners" />
+      <option name="MAIN_CLASS_NAME" value="cydeo.runners.FailedTestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Search functionality result title verification" />
+        <item itemvalue="Cucumber Java.Scenario: List of fruits I like" />
         <item itemvalue="Cucumber Java.Feature: googleSearch" />
-        <item itemvalue="Cucumber Java.Feature: login" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +175,13 @@
       <workItem from="1663401108850" duration="701000" />
       <workItem from="1663513260939" duration="141000" />
       <workItem from="1663930908565" duration="1344000" />
-      <workItem from="1664695330710" duration="784000" />
+      <workItem from="1664695330710" duration="1611000" />
+      <workItem from="1664917016601" duration="48000" />
+      <workItem from="1664917389731" duration="1742000" />
+      <workItem from="1664981814809" duration="4518000" />
+      <workItem from="1665075781658" duration="14000" />
+      <workItem from="1665240535542" duration="12180000" />
+      <workItem from="1665322043815" duration="5950000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1663401206670</created>
@@ -139,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663931676360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day 15,16,17,18 are added.">
+      <created>1664696349574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664696349574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom updated" />
     <MESSAGE value="some issues are fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="some issues are fixed" />
+    <MESSAGE value="day 15,16,17,18 are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15,16,17,18 are added." />
   </component>
 </project>
