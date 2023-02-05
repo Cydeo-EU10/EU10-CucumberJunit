@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>EU9-CucumberJunit</artifactId>
+    <artifactId>EU10-CucumberJunit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
