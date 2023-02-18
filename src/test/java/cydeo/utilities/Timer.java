@@ -1,6 +1,6 @@
 package cydeo.utilities;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Timer {
 

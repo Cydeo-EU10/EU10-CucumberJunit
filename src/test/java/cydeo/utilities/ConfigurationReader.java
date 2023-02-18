@@ -1,8 +1,7 @@
 package cydeo.utilities;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
+import java.io.*;
+import java.util.*;
 
 public class ConfigurationReader {
 

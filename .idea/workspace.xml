@@ -4,24 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="day 15,16,17,18 are added.">
+    <list default="true" id="1a8ae63a-64d1-4046-a19d-978a2a1a991e" name="Changes" comment="project created">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/ViewAllOrdersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/DropdownsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/OrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/ViewAllOrdersPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WebTableLoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/pages/WikiSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/FailedTestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/DataTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Order_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/WebTable_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Wiki_StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/dataTables.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webTableLogin.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/webtableOrder.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/wikiSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/GoogleStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Login_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/step_definitions/Login_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cydeo/utilities/Timer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU9-CucumberJunit/src/test/resources/features",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU10-CucumberJunit/src/test/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +61,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU10-CucumberJunit\src\test\java" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU10-CucumberJunit\src\test\resources\features" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\resources\features" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\java\cydeo\pages" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU9-CucumberJunit\src\test\java\cydeo\step_definitions" />
@@ -153,19 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EU10-CucumberJunit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EU10-CucumberJunit" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: googleSearch" />
@@ -194,7 +189,8 @@
       <workItem from="1665075781658" duration="14000" />
       <workItem from="1665240535542" duration="12180000" />
       <workItem from="1665322043815" duration="5950000" />
-      <workItem from="1675624428539" duration="905000" />
+      <workItem from="1675624428539" duration="1464000" />
+      <workItem from="1676756770185" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1663401206670</created>
@@ -224,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664696349574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project created">
+      <created>1675625419609</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675625419609</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +248,7 @@
     <MESSAGE value="pom updated" />
     <MESSAGE value="some issues are fixed" />
     <MESSAGE value="day 15,16,17,18 are added." />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15,16,17,18 are added." />
+    <MESSAGE value="project created" />
+    <option name="LAST_COMMIT_MESSAGE" value="project created" />
   </component>
 </project>
